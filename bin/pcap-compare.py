@@ -125,7 +125,7 @@ def compare_packet_headers(file1, pcap1, fmt1, file2, pcap2, fmt2, offset, pkt_n
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print('Usage: %s <pcap1> <pcap2>' % (sys.argv[0]))
-        sys.exit(1)
+     
 
     file1 = sys.argv[1]
     file2 = sys.argv[2]
